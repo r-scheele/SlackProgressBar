@@ -2,6 +2,9 @@
 
 SlackProgressBar is a Go library for creating a real-time progress bar in a Slack channel. It provides a way to visualize the progress of long-running tasks directly in Slack, so your team can stay updated on the task's progress.
 
+![Screenshot 2023-10-03 at 04 17 00](https://github.com/r-scheele/SlackProgressBar/assets/67229938/9449e821-117f-4192-9252-33779c93a983)
+
+
 ## Features
 
 - Real-time progress updates in Slack
