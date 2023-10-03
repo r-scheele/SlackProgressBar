@@ -12,7 +12,7 @@ SlackProgressBar is a Go library for creating a real-time progress bar in a Slac
 ## Installation
 
 ```bash
-go get github.com/r-scheele/SlackProgressBar
+go get github.com/r-scheele/SlackProgressBar@v0.1.0
 ```
 
 ## Usage
@@ -21,14 +21,14 @@ go get github.com/r-scheele/SlackProgressBar
 
 ```go
 import (
-    "github.com/r-scheele/SlackProgressBar"
+    "github.com/r-scheele/SlackProgressBar/bar"
 )
 ```
 
 2. Create a new `SlackProgress` instance with your Slack token and channel:
 
 ```go
-sp := &SlackProgress{
+sp := &bar.SlackProgress{
     Token:   "your-slack-token",
     Channel: "#your-channel",
 }
